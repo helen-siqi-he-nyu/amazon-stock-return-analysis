@@ -24,6 +24,26 @@ The return distributions show high excess kurtosis, while Q-Q plots reveal notic
 
 These results suggest that modeling stock returns using only a normal distribution may understate the probability of extreme price movements and therefore underestimate tail risk.
 
+## Visualizations
+
+### Price and Return Time Series
+
+![Amazon Price and Return Time Series](images/price_returns.png)
+
+The time-series plots compare AMZN's adjusted closing price with daily simple and log returns, highlighting periods of elevated return volatility.
+
+### Simple Return Distribution
+
+![Amazon Simple Return Distribution and Q-Q Plot](images/return_distribution.png)
+
+The empirical distribution exhibits heavier tails than the fitted normal distribution, with Q-Q plot deviations becoming more pronounced at the extremes.
+
+### Log Return Distribution
+
+![Amazon Log Return Distribution and Q-Q Plot](images/log_return_distribution.png)
+
+Log returns show similar non-normal tail behavior, reinforcing the limitations of the normality assumption for modeling extreme return movements.
+
 ## Tools & Technologies
 
 - Python
